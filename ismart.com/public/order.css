@@ -1,0 +1,91 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    line-height: 1.5;
+}
+#wrapper2{
+    width: 700px;
+    margin: 0 auto;
+}
+#wrapper2 h1{
+    text-align: center;
+}
+#wrapper2 .highlight{
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+#wrapper2 .text{
+    font-size: 20px;
+    text-align: center;
+    padding-bottom:30px;
+}
+#wrapper2 .text span{
+  
+    text-transform: uppercase;
+    color: #00337C;
+}
+#wrapper2 .order{
+    display:flex;
+    margin-bottom: 30px;
+    justify-content: space-between;
+}
+#wrapper2 .information{
+flex: 40%;
+}
+#wrapper2 .logo{
+    flex: 30%;
+}
+#wrapper2 .logo img{
+    max-width: 100%;
+    height: 100px;
+}
+#wrapper2 .more{
+    flex: 30%;
+}
+#wrapper2 p.tt{
+    font-weight: bold;
+}
+#wrapper2 a{
+    color: #1C82AD;
+}
+#wrapper2 .adress{
+    text-transform: capitalize;
+}
+#wrapper2 .show{
+    border-top: 3px solid #00425A;
+    padding :20px ;
+    text-align: center;
+}
+#wrapper2 td img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+} 
+#wrapper2 table,#wrapper2 th,#wrapper2 td{
+    border:1px solid #868585;
+}
+#wrapper2 table{
+    border-collapse:collapse;
+}
+#wrapper2 table tr:nth-child(odd){
+    background-color:#eee;
+}
+#wrapper2 table tr:nth-child(even){
+    background-color:white;
+}
+#wrapper2 table tr:nth-child(1){
+    background-color:#BFACE2;
+}
+#wrapper2 th,#wrapper2 td{
+    width: 200px;
+}
+#wrapper2 table tr th{
+    padding:10px 0px;
+}

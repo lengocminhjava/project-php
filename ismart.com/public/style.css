@@ -1,0 +1,62 @@
+/*STYLE*/
+@import '../public/css/import/fonts.css';
+@import '../public/css/import/global.css';
+@import '../public/css/import/header.css';
+@import '../public/css/import/footer.css';
+@import '../public/css/import/home.css';
+@import '../public/css/import/category_product.css';
+@import '../public/css/import/blog.css';
+@import '../public/css/import/detail_product.css';
+@import '../public/css/import/detail_blog.css';
+@import '../public/css/import/cart.css';
+@import '../public/css/import/checkout.css';
+
+ul.list-item li .thumb{
+    display: block;
+    overflow: hidden;
+}
+ul#item_product.list-item li a.product-name{
+    min-height: 68px!important;
+    height: 100%;
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+} 
+ul#item_product.list-item li img{
+    max-height: 127px!important;
+    align-items: center;
+    margin: 0 auto;
+   } 
+ul#item_product.list-item li .price{
+    min-height: 25px!important;
+}
+
+ul.list-item li .thumb{
+    margin-top: 10px;
+    transition:all 0.5s;
+}
+ul#item_product.list-item li .thumb:hover{
+    transform: scale(1.2);
+    
+}
+ul.oke{
+    min-height: 5px!important;
+}
+.error{
+    z-index: 1000;
+    color: tomato;
+}
+.hiden{
+    display: none;
+}
+#district{
+text-align: center;
+font-size: 18px;
+}
+/* ul.list-item li .thumb  {
+       transition: transform .5s ease-in !important;
+    object-fit: contain;
+    height: 170px;
+
+    
+} */

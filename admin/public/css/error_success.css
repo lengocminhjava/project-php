@@ -1,0 +1,27 @@
+.error{
+color: tomato;
+margin: 0;
+
+}
+form#form-login p.error{
+    border: 1px dashed #b1154a;
+    padding: 7px 0px;
+}
+img{
+    max-width: 214px!important;
+    height: 143px!important;
+}
+.success{
+    color: rgba(9, 255, 50, 0.979);
+    background-color:  tomato;
+    margin: 0;
+    display: inline-block;
+    text-align: center;
+}
+.class{
+  color:#007bff;
+}
+#id{
+    width: 400px;
+    margin: 0px auto;
+}
